@@ -1,4 +1,4 @@
-# Task 4 — Network Intrusion Detection System (NIDS)
+# Task 3 — Network Intrusion Detection System (NIDS)
 
 A beginner-friendly defensive network monitoring project for the cybersecurity internship task.
 It combines **Suricata** (network IDS engine), custom detection rules, a Python log collector,
