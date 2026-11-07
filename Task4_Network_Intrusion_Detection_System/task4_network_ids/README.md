@@ -192,27 +192,5 @@ Rules are heuristic indicators, not proof that a host is compromised. Tune thres
 5. Block an IP only after authorization and validation; document who approved the action.
 6. Mark the alert reviewed in the dashboard.
 
-## Tests
 
-Run:
-```bash
-python -m unittest discover -s tests -v
-```
 
-## GitHub submission
-
-1. Create a GitHub repository, for example `task-4-network-intrusion-detection-system`.
-2. Upload the **contents** of this extracted folder (not the ZIP file only).
-3. Include the README and screenshots of:
-   - Dashboard showing demo alerts
-   - Suricata rule file
-   - Terminal showing tests passed
-   - (Optional) Suricata running and collector reading `eve.json`
-4. In your submission, clearly state whether you demonstrated **simulation mode** or **real Suricata monitoring**.
-5. Do not upload real packet captures, private IP/device details, passwords, or sensitive logs.
-
-## Limitations
-
-- Demo alerts are simulated for presentation; they do not prove real intrusion detection.
-- Real monitoring requires Suricata to be installed, configured, and attached to the correct interface.
-- This project does not automatically quarantine hosts or modify firewall rules.
